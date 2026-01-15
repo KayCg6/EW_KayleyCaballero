@@ -1,0 +1,121 @@
+*{
+    text-align: center;
+   font-family: "Mountains of Christmas", serif;
+   
+}
+
+h1{
+    color: red
+}
+h1:hover{
+color: green;
+}
+
+.titulo{
+font-size: 50px;
+}
+
+
+
+section{
+    border: 3px dashed red;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h2{
+    color: white;
+    margin-top: 70px;
+}
+h2:hover{
+color: black;
+}
+
+.box1{
+
+width: 400px;
+height: 200px;
+border: 2px red solid;
+margin: 8px;
+background: linear-gradient(red , rgb(18, 157, 18) 50%, white
+);
+
+}
+
+.box2{
+width: 400px;
+height: 200px;
+border: 2px red solid;
+margin: 8px;
+background: linear-gradient(45deg,white 0, red 10%, 90% ,white);
+}
+
+.box3{
+width: 400px;
+height: 200px;
+border: 2px red solid;
+margin: 8px;
+background: linear-gradient(70deg , green , white);
+}
+
+.box4{
+width: 400px;
+height: 200px;
+border: 2px red solid;
+margin: 8px;
+background: linear-gradient(rgb(2, 152, 2) 15%, red 30%);
+}
+
+.box5{
+width: 400px;
+height: 200px;
+border: 2px red solid;
+margin: 8px;
+background: linear-gradient(45deg, green 0% 20%, red 20% 60%, white 60% 100% );
+}
+
+.box6{
+width: 400px;
+height: 200px;
+border: 2px red solid;
+margin: 8px;
+background: linear-gradient(90deg , green, white, red, green , white, red, green);
+}
+
+
+
+
+
+footer{
+    border: 2px solid;
+    border-color: rgb(6, 179, 6);
+    margin-bottom: 20px;
+    color: black;
+
+}
+
+footer:hover{
+    background: linear-gradient(rgb(8, 169, 8), red);
+    color: white;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+

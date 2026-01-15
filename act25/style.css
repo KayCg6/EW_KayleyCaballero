@@ -1,0 +1,51 @@
+*{
+    margin: 0 auto;
+    text-align: center;
+    flex-flow: column;
+
+}
+
+body{
+    background-image: url(img/Fondo.webp);
+    background-size: cover;
+}
+
+a{
+    font-size:xxx-large;
+    color: rgb(81, 156, 58);
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a:hover{
+    color: brown;
+}
+
+
+p{
+    color: white;
+    text-align: center;
+    font-size:medium;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+}
+
+header{
+    margin-top: 300px;
+}
+
+
+
+
+
+
+
+
+
+

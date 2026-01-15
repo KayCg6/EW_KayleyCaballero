@@ -1,0 +1,111 @@
+*{
+    margin: 0 auto;
+}
+
+
+p{
+    font-size: 30px;
+    text-align: center; 
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+
+
+
+.fruta{
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 200px;
+ 
+}
+
+.pomelos{
+  
+    padding-left: 10px;
+    padding-right: 15px;
+    
+}
+
+.limones{
+  
+    padding-left: 15px;
+    padding-right: 15px;
+     
+}
+
+.naranjas{
+  
+    padding-left: 15px;
+    padding-right: 15px;
+}
+  
+
+.bermagota{
+  padding-left: 15px;
+  padding-right: 15px;
+     
+}
+
+
+.home{
+    text-align: center;
+    background-color: yellow;
+    font-size: 30px;
+border: 3px orange solid;
+width: 100px;
+height: 40px;
+margin-top: 40px;
+
+
+
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+
+    
+}
+
+a{
+    color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

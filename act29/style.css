@@ -1,0 +1,158 @@
+*{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 110px;
+    font-family: "green-fairy-dots-combo", sans-serif;
+font-weight: 600;
+font-style: normal;
+
+
+}
+h5{
+    font-size: 50px;
+    font-family: "spalla", sans-serif;
+font-weight: 700;
+font-style: normal;
+    
+}
+
+
+main{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.caja{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.gilda{
+   
+    margin-right: 40px;
+    width: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 12px;
+    height: 600px;
+    font-size: 100px;
+
+    background-color: yellow;
+    color: black;
+    font-family: "spalla", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+.gilda:hover{
+background-image: url(img/gilda2.webp);
+background-size: cover;
+}
+
+.cuadro2{
+     
+     margin-left: 40px;
+     margin-right: 20px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    border: 10px solid red;
+    background-color: yellow;
+    padding: 12px;
+}
+
+.cuadro3{
+     
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 12px;
+    background-image: url(img/gilda3.jpg);
+    background-size: cover;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+
+.texto{
+    margin: auto;
+    font-size: 40px;
+    border: 9px solid red;
+    padding: 12px;
+    background-color: white;
+    color: black;
+    width: 90%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-family: "spalla", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sevillana{
+    display: none;
+}
+
+@media (orientation: portrait){
+    main{
+        flex-direction: column;
+    }
+
+    main div{
+        background-color: olive;
+        width: 200px;
+        height: 200px;
+    }
+
+    .gilda{
+        background-color: olive;
+    }
+
+    .cuadro2{ background-color: olive;}
+
+    .cuadro3{ background-color: olive;}
+
+    .texto{
+        display: none;
+    }
+
+    .sevillana{
+        display: flex;
+        flex-flow: column
+    }
+
+}
+
+
+
+
+
+
+
+
+
+

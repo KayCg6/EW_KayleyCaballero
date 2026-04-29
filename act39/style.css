@@ -1,0 +1,29 @@
+.cont{
+     grid-template-columns: 20% 80%;
+     display: grid;
+     margin: 4vw;
+     grid-template-areas: "header header" "nav section" "footer footer";
+     
+}
+
+header{ border: 1px solid blue;
+color: blue;
+text-align: center;
+grid-area : header;}
+
+nav{ border: 1px solid blue;
+grid-area:nav;
+padding-left: 1vw;}
+
+section{ border: 1px solid blue;
+grid-area: section;
+padding-left: 1vw;}
+
+footer{ border: 1px solid blue;
+background-color: blue;
+ text-align: center;
+color: white;
+padding-top: 3vw;
+padding-bottom: 3vw;
+grid-area: footer;}
+

@@ -1,0 +1,44 @@
+body{ background-color: cyan;
+}
+
+.container{ grid-template-columns: auto auto;
+display: grid;
+background-color: cadetblue;
+}
+
+
+h1{ color:blue;
+text-align: center; 
+padding-top: 4vw;
+font-size: 8vw;}
+
+.hj1 div{ border: solid 0.3vw white;
+background-color: blue;
+display: grid;
+color: white;
+padding-bottom: 1vw;
+padding-top: 1vw;
+width: 15vw;}
+
+.hj1{ justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: row;}
+
+.hj2{ padding-top: 2.4vw;}
+
+div div{ border:0.5vw solid black;
+    padding-bottom: 1vw;
+    padding-top: 1vw;
+    text-align: center; 
+    gap:0.5vw;
+    margin: 0.3vw;
+    background-color: aquamarine;
+
+}
+
+
+@media only screen and (max-width:1000px) {
+    div div{ background-color:#979bfb;}
+    .hj1{flex-direction: column;}
+}

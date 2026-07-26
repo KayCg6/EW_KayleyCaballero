@@ -1,0 +1,40 @@
+
+body{
+    text-align: center;
+    background-image: url(img/ꉂ\(˵˃\ ᗜ\ ˂˵\).jpg);
+    background-size: cover;
+}
+
+
+nav img{
+    width: 8vw;
+    padding-top: 14vw;
+    padding-right: 80vw;
+}
+
+
+
+
+h1{
+    text-align: center;
+    font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-style: italic;
+color: palevioletred;
+}
+
+
+.enlace{
+    border: 0.3vw dashed pink;
+    background-color: pink;
+    padding-bottom: 2vw;
+    padding-left: 2vw;
+    padding-right:2vw ;
+    color: white;
+    text-decoration: none;
+    font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-style: italic;
+    
+}
+

@@ -1,0 +1,97 @@
+body{
+    background-image: url(img/fondo\ papel\ arrugado.png);
+    background-size: cover;
+    cursor: url(cursor/flecha.png),auto ;
+}
+
+h1{
+    text-align: center;
+    padding-top: 8vw;
+font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-style: normal;
+color: palevioletred;
+font-size: 3vw;
+
+}
+
+img{
+   width: 10vw;
+    padding-left: 44vw;
+}
+
+h4{
+    text-align: center;
+    font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-style: italic;
+border: pink 0.3vw solid;
+color: palevioletred;
+font-size: 2vw;
+padding-top: 2vw;
+margin-left: 40vw;
+width: 16vw;
+height: 5vw;
+}
+
+a{
+    text-decoration: none;
+    cursor: url(cursor/dedo.png), auto ;
+}
+section{
+    display: flex;
+    margin-left: 38vw;
+
+}
+
+.yes{
+    border: dashed pink 0.3vw;
+    margin-bottom: 3vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    height: 2.5vw;
+    padding-top: 0.3vw;    
+    
+}
+
+.yes:hover{
+    box-shadow: 0px 0px 2px 2px;
+    background-color: pink;
+    color: white;
+    transform: scale(1.3);
+     box-shadow: 0.3vw 0.6vw 1.2vw  palevioletred;
+      transition: 1s ease all;
+
+}
+
+.no:hover{
+    box-shadow: 0.3vw 0.6vw 1.2vw  palevioletred;
+    background-color: pink;
+    color: white;
+    transform: scale(1.3);
+     transition: 1s ease all;
+}
+
+.no{
+    border: dashed pink 0.3vw;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    height: 2.5vw;
+    padding-top: 0.3vw;
+    margin-left: 8vw;
+}
+
+h6{
+    
+    font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-style: italic;
+font-size: 1.5vw;
+color: palevioletred;
+}
+
+p{
+color: white;
+}
+
+

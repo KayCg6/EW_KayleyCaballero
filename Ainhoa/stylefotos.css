@@ -1,0 +1,84 @@
+*{
+    cursor: url(cursor/flecha.png),auto ;
+  
+}
+body{
+     cursor: url(cursor/flecha.png),auto ;
+     background-image: url(img/descargar\ -\ 2026-07-23T215029.897.jpg);
+     background-size: contain;
+      margin-top: 3vw;
+       font-family: "argent-pixel-cf", sans-serif;
+font-weight: 400;
+font-style: italic;
+color: palevioletred;
+
+}
+h1{
+    text-align: center;
+}
+
+
+nav a img{
+    width: 8vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
+}
+
+nav a img:hover{
+     transform: scale(1.3);
+      transition: 1s ease all;
+      cursor: url(cursor/dedo.png), auto ;
+}
+
+a{
+     text-decoration: none;
+    cursor: url(cursor/dedo.png), auto ;
+}
+
+section{
+    margin-bottom: 5vw;
+}
+
+.logos{
+   display: flex;
+    gap: 80px;
+    width: max-content;
+    animation: mover 70s linear infinite;
+    
+}
+
+.logos img{
+    width: 40%;
+    height: 20vw;
+    border: 0.3vw palevioletred dashed;
+    box-shadow: 0px 0px 10px 0px purple;
+
+}
+
+
+.contenedor{
+    width: 100%;
+    overflow: hidden;
+   
+}
+
+.kayley{
+    margin-top: 15vw;
+    
+}
+
+
+.Ainhoa{
+    margin-top: 15vw;
+}
+
+@keyframes mover {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+
